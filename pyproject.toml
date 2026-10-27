@@ -45,4 +45,4 @@ module = "agentguard.*"
 ignore_errors = true
 follow_imports = "silent"
 [tool.vercel]
-entrypoint = "api/index.py"
+entrypoint = "api.index:app"
