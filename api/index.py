@@ -3,6 +3,7 @@ from pathlib import Path
 from application.config import Settings
 from application.api import create_app
 from application.runtime_adapter import UnavailableRuntime
+app = create_app()
 
 # Ensure /tmp directory exists for SQLite storage in serverless environments
 db_dir = Path("/tmp/agentguard")
